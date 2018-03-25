@@ -1,2 +1,8 @@
-body {background-color:grey;}
-h1,h2, p, a, ul, li{color:gold;font-family:Sans-Serif}
+*{padding: 0; margin: 0}
+body {background-color:#0000FF;}
+h1, h2, p, a, ul, li{color:gold;font-family:Sans-Serif; text-align: center;}
+h2 {font-family: Arial, Sans-Serif; color: #00FF00; 
+	font-size: 30px; font-weight: normal}
+h1, h2 {text-decoration: underline}
+.important {font-weight: bold; font-size: 30px}
+h1 {text-transform: uppercase; background: #00FF00;}
