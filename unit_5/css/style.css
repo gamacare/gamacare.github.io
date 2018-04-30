@@ -17,13 +17,16 @@ body{
 	margin: 3em auto;
 }
 
-header 
-{
-
+header {
+	background-color: #FFED74;
+	border:1px black solid;
+	padding: 20px;
 }
 
-section {
-	padding: 30px;
+nav {
+	background-color: #E8C66A;
+	border:1px black solid;
+	padding: 20px;	
 }
 
 nav a{
@@ -34,9 +37,21 @@ nav a{
 	padding: 1em;
 }
 
+section {
+	background-color: #FFE2B8;
+	border:1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border:1px black solid;
+	padding: 20px;
+}
+
 a {
 	text-decoration: none;
-	color: #404040
+	color: #404040;
 }
 
 img {
@@ -60,6 +75,18 @@ p {
 	line-height:1.5em;
 	}
 
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+img {
+	width: 100%;
+}
+
+li {
+	margin-left: 20px;
+}
 
 .navLinks {
 	font-family: , sans-serif;
@@ -141,6 +168,3 @@ p {
 
 .sectionaboutus
 
-li {
-	margin-left: 20px;
-}
