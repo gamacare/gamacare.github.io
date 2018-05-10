@@ -33,7 +33,7 @@ nav a{
 	color: #404040;
 	font-weight: bold;
 	text-decoration: none;
-	display: inline-block;
+	/*display: inline-block;*/
 	padding: 1em;
 }
 
@@ -152,19 +152,61 @@ li {
 	display: block;
 }
 
-.sectioncredentials {
+.credentials {
 	padding: 4em;
 
 }
 
-.sectioncredentials img {
+.credentials img {
 	width:30%;
 	display: inline;
 }
 
-.sectionourfleet
 
-.sectionourservice
+.ourfleet {
 
-.sectionaboutus
+}
 
+.ourfleet img{
+width:100%;
+}
+
+
+.ourservice {
+
+}
+
+.aboutus {
+
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border 1px black solid;
+	padding: 20px;
+	float:left;
+	width:30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border 1px black solid;
+	padding: 20px;
+	float: right;
+	width:60%;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display:block;
+	font-size:0;
+	content: " ";
+	clear:both;
+	height:0;
+}
