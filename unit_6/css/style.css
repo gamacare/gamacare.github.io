@@ -59,7 +59,7 @@ img {
 }
 
 h1, h2, h3, h4 {
-	font-family: PT SANS Caption, sans-serif
+	font-family: PT SANS Caption, sans-serif;
 }
 
 h1 {
@@ -80,8 +80,6 @@ a {
 	color: #404040;
 }
 
-img {
-	width: 100%;
 }
 
 li {
@@ -162,15 +160,26 @@ li {
 	display: inline;
 }
 
-
-.ourfleet {
-
+#ourfleet img {
+	width: 15%;
 }
 
-.ourfleet img{
-width:100%;
+
+#executive {
+	float:left;
 }
 
+#luxe {
+	float:left;
+}
+
+#van {
+	float:left;
+}
+
+.clearfix {
+	clear: both;
+}
 
 .ourservice {
 
@@ -180,7 +189,7 @@ width:100%;
 
 }
 
-#two_column {
+/*#two_column {
 	background-color: #FFB7CF;
 	border 1px black solid;
 	padding: 20px;
@@ -191,22 +200,22 @@ width:100%;
 	border 1px black solid;
 	padding: 20px;
 	float:left;
-	width:30%;
+	width:35%;
 }
 
 #right {
 	background-color: #E55B88;
 	border 1px black solid;
 	padding: 20px;
-	float: right;
-	width:60%;
+	float: left;
+	width:35%;
 }
 
-.clearfix: after {
+.clearfix:after {
 	visibility: hidden;
 	display:block;
 	font-size:0;
 	content: " ";
 	clear:both;
 	height:0;
-}
+}*/
